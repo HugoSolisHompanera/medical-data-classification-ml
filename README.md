@@ -1,6 +1,6 @@
 # Medical Data Classification with Machine Learning
 
-Proyecto desarrollado en Python/Jupyter Notebook.
+Proyecto desarrollado en Python/Jupyter Notebook.  
 El objetivo del proyecto es aplicar modelos de clasificación supervisada sobre datasets médicos utilizando técnicas de Machine Learning.
 
 El repositorio contiene dos experimentos independientes dentro de la misma práctica:
@@ -18,6 +18,26 @@ El repositorio contiene dos experimentos independientes dentro de la misma prác
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HugoSolisHompanera/medical-data-classification-ml/blob/main/notebooks/dermatology_multiclass_classification.ipynb)
 
+## Ejecución en local
+
+1. Clonar el repositorio:
+
+git clone https://github.com/HugoSolisHompanera/medical-data-classification-ml.git
+
+2. Entrar en la carpeta del proyecto:
+
+cd medical-data-classification-ml
+
+3. Instalar las dependencias:
+
+pip install -r requirements.txt
+
+4. Abrir Jupyter Notebook:
+
+jupyter notebook
+
+5. Ejecutar los notebooks desde la carpeta "notebooks".
+
 ## Descripción
 
 Este proyecto trabaja con problemas de clasificación en el ámbito médico mediante modelos supervisados.  
@@ -27,7 +47,7 @@ Se realiza la carga y preparación de datos, la división en entrenamiento y pru
 
 ### 1. Diabetes - Clasificación binaria
 
-Notebook: `notebooks/diabetes_binary_classification.ipynb`
+Notebook: notebooks/diabetes_binary_classification.ipynb
 
 Este experimento utiliza un dataset de diabetes con variables médicas como glucosa, presión arterial, índice de masa corporal, edad, insulina y otras características clínicas.
 
@@ -45,7 +65,7 @@ Tareas realizadas:
 
 ### 2. Dermatology - Clasificación multiclase
 
-Notebook: `notebooks/dermatology_multiclass_classification.ipynb`
+Notebook: notebooks/dermatology_multiclass_classification.ipynb
 
 Este experimento utiliza un dataset de dermatología compuesto por 34 atributos y 6 clases diferentes relacionadas con subtipos de enfermedades dermatológicas.
 
@@ -76,7 +96,6 @@ Tareas realizadas:
 
 ## Estructura del repositorio
 
-```text
 medical-data-classification-ml/
 │
 ├── README.md
